@@ -1,0 +1,259 @@
+2016/11/21 00:58:48 [notice] 10999#0: signal process started
+2016/11/21 00:58:55 [error] 11000#0: *157 lua entry thread aborted: runtime error: ../pictrix/lua/main.lua:41: attempt to perform arithmetic on local 'firstSlash' (a nil value)
+stack traceback:
+coroutine 0:
+	../pictrix/lua/main.lua: in function 'checkURIIsCorrect'
+	../pictrix/lua/main.lua:288: in function 'main'
+	../pictrix/lua/main.lua:308: in function <../pictrix/lua/main.lua:1>, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/resource.luoxianming.cn/radians_circle.jpg?format=png"
+2016/11/21 00:58:56 [error] 11000#0: *158 lua entry thread aborted: runtime error: ../pictrix/lua/main.lua:41: attempt to perform arithmetic on local 'firstSlash' (a nil value)
+stack traceback:
+coroutine 0:
+	../pictrix/lua/main.lua: in function 'checkURIIsCorrect'
+	../pictrix/lua/main.lua:288: in function 'main'
+	../pictrix/lua/main.lua:308: in function <../pictrix/lua/main.lua:1>, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/resource.luoxianming.cn/radians_circle.jpg?format=png"
+2016/11/21 00:59:04 [error] 11000#0: *159 lua entry thread aborted: runtime error: ../pictrix/lua/main.lua:41: attempt to perform arithmetic on local 'firstSlash' (a nil value)
+stack traceback:
+coroutine 0:
+	../pictrix/lua/main.lua: in function 'checkURIIsCorrect'
+	../pictrix/lua/main.lua:288: in function 'main'
+	../pictrix/lua/main.lua:308: in function <../pictrix/lua/main.lua:1>, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/resource.luoxianming.cn/radians_circle.jpg?format=webp"
+2016/11/21 00:59:05 [error] 11000#0: *160 lua entry thread aborted: runtime error: ../pictrix/lua/main.lua:41: attempt to perform arithmetic on local 'firstSlash' (a nil value)
+stack traceback:
+coroutine 0:
+	../pictrix/lua/main.lua: in function 'checkURIIsCorrect'
+	../pictrix/lua/main.lua:288: in function 'main'
+	../pictrix/lua/main.lua:308: in function <../pictrix/lua/main.lua:1>, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/resource.luoxianming.cn/radians_circle.jpg?format=webp"
+2016/11/21 01:01:54 [notice] 11029#0: signal process started
+Assertion failed: (memory != (void *) NULL), function MagickRelinquishMemory, file wand/magick_wand.c, line 6936.
+Magick: abort due to signal 6 (SIGABRT) "Abort"...
+2016/11/21 01:01:54 [alert] 6955#0: worker process 11000 exited on signal 6
+2016/11/21 01:02:05 [error] 11030#0: *163 failed to load external Lua file "../pictrix/lua/main.lua": ../pictrix/lua/main.lua:40: 'then' expected near '=', client: 127.0.0.1, server: , request: "GET /resource.luoxianming.cn/radians_circle.jpg?format=webp HTTP/1.1", host: "localhost:8080"
+2016/11/21 01:02:05 [error] 11030#0: *164 failed to load external Lua file "../pictrix/lua/main.lua": ../pictrix/lua/main.lua:40: 'then' expected near '=', client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/resource.luoxianming.cn/radians_circle.jpg?format=webp"
+2016/11/21 01:02:07 [error] 11030#0: *165 failed to load external Lua file "../pictrix/lua/main.lua": ../pictrix/lua/main.lua:40: 'then' expected near '=', client: 127.0.0.1, server: , request: "GET /resource.luoxianming.cn/radians_circle.jpg?format=webp HTTP/1.1", host: "localhost:8080"
+2016/11/21 01:02:07 [error] 11030#0: *166 failed to load external Lua file "../pictrix/lua/main.lua": ../pictrix/lua/main.lua:40: 'then' expected near '=', client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/resource.luoxianming.cn/radians_circle.jpg?format=webp"
+2016/11/21 01:02:12 [error] 11030#0: *167 failed to load external Lua file "../pictrix/lua/main.lua": ../pictrix/lua/main.lua:40: 'then' expected near '=', client: 127.0.0.1, server: , request: "GET /resource.luoxianming.cn/radians_circle.jpg?format=png HTTP/1.1", host: "localhost:8080"
+2016/11/21 01:02:12 [error] 11030#0: *168 failed to load external Lua file "../pictrix/lua/main.lua": ../pictrix/lua/main.lua:40: 'then' expected near '=', client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/resource.luoxianming.cn/radians_circle.jpg?format=png"
+2016/11/21 01:02:12 [error] 11030#0: *169 failed to load external Lua file "../pictrix/lua/main.lua": ../pictrix/lua/main.lua:40: 'then' expected near '=', client: 127.0.0.1, server: , request: "GET /resource.luoxianming.cn/radians_circle.jpg?format=png HTTP/1.1", host: "localhost:8080"
+2016/11/21 01:02:12 [error] 11030#0: *170 failed to load external Lua file "../pictrix/lua/main.lua": ../pictrix/lua/main.lua:40: 'then' expected near '=', client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/resource.luoxianming.cn/radians_circle.jpg?format=png"
+2016/11/21 01:02:34 [notice] 11065#0: signal process started
+2016/11/21 01:04:09 [notice] 11092#0: signal process started
+Assertion failed: (memory != (void *) NULL), function MagickRelinquishMemory, file wand/magick_wand.c, line 6936.
+Magick: abort due to signal 6 (SIGABRT) "Abort"...
+2016/11/21 01:04:09 [alert] 6955#0: worker process 11067 exited on signal 6
+Assertion failed: (memory != (void *) NULL), function MagickRelinquishMemory, file wand/magick_wand.c, line 6936.
+Magick: abort due to signal 6 (SIGABRT) "Abort"...
+2016/11/21 01:08:44 [alert] 6955#0: worker process 11094 exited on signal 6
+2016/11/21 01:08:53 [error] 11340#0: *179 lua entry thread aborted: runtime error: ../pictrix/lua/main.lua:162: attempt to compare number with string
+stack traceback:
+coroutine 0:
+	../pictrix/lua/main.lua: in function 'triximage'
+	../pictrix/lua/main.lua:304: in function 'main'
+	../pictrix/lua/main.lua:313: in function <../pictrix/lua/main.lua:1>, client: 127.0.0.1, server: , request: "GET /resource.luoxianming.cn/radians_circle.jpg?format=png&width=100 HTTP/1.1", host: "localhost:8080"
+2016/11/21 01:08:56 [error] 11340#0: *180 lua entry thread aborted: runtime error: ../pictrix/lua/main.lua:162: attempt to compare number with string
+stack traceback:
+coroutine 0:
+	../pictrix/lua/main.lua: in function 'triximage'
+	../pictrix/lua/main.lua:304: in function 'main'
+	../pictrix/lua/main.lua:313: in function <../pictrix/lua/main.lua:1>, client: 127.0.0.1, server: , request: "GET /resource.luoxianming.cn/radians_circle.jpg?format=png&width=100 HTTP/1.1", host: "localhost:8080"
+2016/11/21 01:09:01 [error] 11340#0: *181 lua entry thread aborted: runtime error: ../pictrix/lua/main.lua:162: attempt to compare number with string
+stack traceback:
+coroutine 0:
+	../pictrix/lua/main.lua: in function 'triximage'
+	../pictrix/lua/main.lua:304: in function 'main'
+	../pictrix/lua/main.lua:313: in function <../pictrix/lua/main.lua:1>, client: 127.0.0.1, server: , request: "GET /resource.luoxianming.cn/radians_circle.jpg?format=png&width=50 HTTP/1.1", host: "localhost:8080"
+2016/11/21 01:11:13 [notice] 11368#0: signal process started
+2016/11/21 01:12:53 [notice] 11381#0: signal process started
+2016/11/21 01:14:34 [notice] 11405#0: signal process started
+2016/11/21 01:16:00 [notice] 11446#0: signal process started
+2016/11/21 01:18:09 [notice] 11472#0: signal process started
+2016/11/21 01:19:01 [error] 11474#0: *191 lua entry thread aborted: runtime error: ../pictrix/lua/main.lua:145: attempt to compare number with string
+stack traceback:
+coroutine 0:
+	../pictrix/lua/main.lua: in function 'triximage'
+	../pictrix/lua/main.lua:302: in function 'main'
+	../pictrix/lua/main.lua:311: in function <../pictrix/lua/main.lua:1>, client: 127.0.0.1, server: , request: "GET /resource.luoxianming.cn/radians_circle.jpg?quality=100 HTTP/1.1", host: "localhost:8080"
+2016/11/21 01:19:28 [notice] 11502#0: signal process started
+2016/11/21 01:19:36 [error] 11503#0: *195 lua entry thread aborted: runtime error: lib/magick/gmwand/image.lua:82: dlsym(0x7f83def13610, MagickSetImageCompressionQuality): symbol not found
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	lib/magick/gmwand/image.lua:82: in function 'set_quality'
+	../pictrix/lua/main.lua:146: in function 'triximage'
+	../pictrix/lua/main.lua:302: in function 'main'
+	../pictrix/lua/main.lua:311: in function <../pictrix/lua/main.lua:1>, client: 127.0.0.1, server: , request: "GET /resource.luoxianming.cn/radians_circle.jpg?quality=90 HTTP/1.1", host: "localhost:8080"
+2016/11/21 01:21:33 [notice] 11538#0: signal process started
+2016/11/21 01:21:36 [error] 11540#0: *197 lua entry thread aborted: runtime error: lib/magick/gmwand/image.lua:82: missing declaration for symbol 'MagickSetImageCompressionQuality'
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	lib/magick/gmwand/image.lua:82: in function 'set_quality'
+	../pictrix/lua/main.lua:146: in function 'triximage'
+	../pictrix/lua/main.lua:302: in function 'main'
+	../pictrix/lua/main.lua:311: in function <../pictrix/lua/main.lua:1>, client: 127.0.0.1, server: , request: "GET /resource.luoxianming.cn/radians_circle.jpg?quality=90 HTTP/1.1", host: "localhost:8080"
+2016/11/21 01:21:38 [error] 11540#0: *198 lua entry thread aborted: runtime error: lib/magick/gmwand/image.lua:82: missing declaration for symbol 'MagickSetImageCompressionQuality'
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	lib/magick/gmwand/image.lua:82: in function 'set_quality'
+	../pictrix/lua/main.lua:146: in function 'triximage'
+	../pictrix/lua/main.lua:302: in function 'main'
+	../pictrix/lua/main.lua:311: in function <../pictrix/lua/main.lua:1>, client: 127.0.0.1, server: , request: "GET /resource.luoxianming.cn/radians_circle.jpg?quality=90 HTTP/1.1", host: "localhost:8080"
+2016/11/21 01:21:57 [notice] 11561#0: signal process started
+2016/11/21 01:54:39 [notice] 12056#0: signal process started
+2016/11/21 08:31:01 [error] 21109#21109: *1 lua entry thread aborted: runtime error: pictrix/lua/main.lua:1: module 'magick' not found:
+	no field package.preload['magick']
+	no file 'lib/magick.lua'
+	no file '/usr/local/openresty/site/lualib/magick.lua'
+	no file '/usr/local/openresty/site/lualib/magick/init.lua'
+	no file '/usr/local/openresty/lualib/magick.lua'
+	no file '/usr/local/openresty/lualib/magick/init.lua'
+	no file '/usr/lib64/lua/5.1/magick.lua'
+	no file './magick.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta2/magick.lua'
+	no file '/usr/local/share/lua/5.1/magick.lua'
+	no file '/usr/local/share/lua/5.1/magick/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/magick.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/magick/init.lua'
+	no file 'libc/magick.so'
+	no file '/usr/local/openresty/site/lualib/magick.so'
+	no file '/usr/local/openresty/lualib/magick.so'
+	no file '/usr/lib64/lua/5.1/magick.so'
+	no file './magick.so'
+	no file '/usr/local/lib/lua/5.1/magick.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/magick.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	pictrix/lua/main.lua:1: in function <pictrix/lua/main.lua:1>, client: 127.0.0.1, server: , request: "GET /resource.luoxianming.cn/radians_circle.jpg?quality=50 HTTP/1.0", host: "image.luoxianming.cn"
+2016/11/21 08:31:01 [error] 21109#21109: *2 lua entry thread aborted: runtime error: pictrix/lua/main.lua:1: module 'magick' not found:
+	no field package.preload['magick']
+	no file 'lib/magick.lua'
+	no file '/usr/local/openresty/site/lualib/magick.lua'
+	no file '/usr/local/openresty/site/lualib/magick/init.lua'
+	no file '/usr/local/openresty/lualib/magick.lua'
+	no file '/usr/local/openresty/lualib/magick/init.lua'
+	no file '/usr/lib64/lua/5.1/magick.lua'
+	no file './magick.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta2/magick.lua'
+	no file '/usr/local/share/lua/5.1/magick.lua'
+	no file '/usr/local/share/lua/5.1/magick/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/magick.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/magick/init.lua'
+	no file 'libc/magick.so'
+	no file '/usr/local/openresty/site/lualib/magick.so'
+	no file '/usr/local/openresty/lualib/magick.so'
+	no file '/usr/lib64/lua/5.1/magick.so'
+	no file './magick.so'
+	no file '/usr/local/lib/lua/5.1/magick.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/magick.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	pictrix/lua/main.lua:1: in function <pictrix/lua/main.lua:1>, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.0", host: "image.luoxianming.cn", referrer: "http://image.luoxianming.cn/resource.luoxianming.cn/radians_circle.jpg?quality=50"
+2016/11/21 08:33:26 [notice] 21857#21857: signal process started
+2016/11/21 08:33:45 [error] 21881#21881: *1 lua entry thread aborted: runtime error: lib/prixutil.lua:9: /Users/luoxianming/Documents/Testing/pictrix/libc/libpictrixutil.so: cannot open shared object file: No such file or directory
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	../pictrix/lua/main.lua:3: in function <../pictrix/lua/main.lua:1>, client: 127.0.0.1, server: , request: "GET /resource.luoxianming.cn/radians_circle.jpg?quality=50 HTTP/1.0", host: "image.luoxianming.cn"
+2016/11/21 08:33:46 [error] 21881#21881: *2 lua entry thread aborted: runtime error: ../pictrix/lua/main.lua:3: loop or previous error loading module 'fileutil'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	../pictrix/lua/main.lua:3: in function <../pictrix/lua/main.lua:1>, client: 127.0.0.1, server: , request: "GET /resource.luoxianming.cn/radians_circle.jpg?quality=50 HTTP/1.0", host: "image.luoxianming.cn"
+2016/11/21 08:35:10 [notice] 21901#21901: signal process started
+2016/11/21 08:35:14 [error] 21903#21903: *3 lua entry thread aborted: runtime error: lib/prixutil.lua:9: /user/local/pictrix/libc/libpictrixutil.so: cannot open shared object file: No such file or directory
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	../pictrix/lua/main.lua:3: in function <../pictrix/lua/main.lua:1>, client: 127.0.0.1, server: , request: "GET /resource.luoxianming.cn/radians_circle.jpg?quality=50 HTTP/1.0", host: "image.luoxianming.cn"
+2016/11/21 08:35:16 [error] 21903#21903: *4 lua entry thread aborted: runtime error: ../pictrix/lua/main.lua:3: loop or previous error loading module 'fileutil'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	../pictrix/lua/main.lua:3: in function <../pictrix/lua/main.lua:1>, client: 127.0.0.1, server: , request: "GET /resource.luoxianming.cn/radians_circle.jpg?quality=50 HTTP/1.0", host: "image.luoxianming.cn"
+2016/11/21 08:37:16 [notice] 21977#21977: signal process started
+2016/11/21 08:37:18 [error] 21979#21979: *5 lua entry thread aborted: runtime error: lib/prixutil.lua:9: /usr/local/pictrix/libc/libpictrixutil.so: invalid ELF header
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	../pictrix/lua/main.lua:3: in function <../pictrix/lua/main.lua:1>, client: 127.0.0.1, server: , request: "GET /resource.luoxianming.cn/radians_circle.jpg?quality=50 HTTP/1.0", host: "image.luoxianming.cn"
+2016/11/21 08:37:19 [error] 21979#21979: *6 lua entry thread aborted: runtime error: ../pictrix/lua/main.lua:3: loop or previous error loading module 'fileutil'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	../pictrix/lua/main.lua:3: in function <../pictrix/lua/main.lua:1>, client: 127.0.0.1, server: , request: "GET /resource.luoxianming.cn/radians_circle.jpg?quality=50 HTTP/1.0", host: "image.luoxianming.cn"
+2016/11/21 08:41:02 [notice] 22082#22082: signal process started
+2016/11/21 08:41:07 [error] 22084#22084: *7 connect() failed (111: Connection refused), client: 127.0.0.1, server: , request: "GET /resource.luoxianming.cn/radians_circle.jpg?quality=50 HTTP/1.0", host: "image.luoxianming.cn"
+2016/11/21 08:42:19 [error] 22084#22084: *10 connect() failed (111: Connection refused), client: 127.0.0.1, server: , request: "GET /resource.luoxianming.cn/radians_circle.jpg?quality=50 HTTP/1.0", host: "image.luoxianming.cn"
+2016/11/21 08:42:20 [error] 22084#22084: *12 connect() failed (111: Connection refused), client: 127.0.0.1, server: , request: "GET /resource.luoxianming.cn/radians_circle.jpg?quality=50 HTTP/1.0", host: "image.luoxianming.cn"
+2016/11/21 08:45:51 [notice] 22235#22235: signal process started
+2016/11/21 08:45:54 [error] 22239#22239: *14 connect() failed (111: Connection refused), client: 127.0.0.1, server: , request: "GET /resource.luoxianming.cn/radians_circle.jpg?quality=50 HTTP/1.0", host: "image.luoxianming.cn"
+2016/11/21 08:53:30 [notice] 22259#22259: signal process started
+2016/11/21 08:53:34 [error] 22263#22263: *21 lua entry thread aborted: runtime error: ../pictrix/lua/main.lua:213: attempt to call upvalue 'enableImageTypes' (a table value)
+stack traceback:
+coroutine 0:
+	../pictrix/lua/main.lua: in function 'downloadimage'
+	../pictrix/lua/main.lua:307: in function 'main'
+	../pictrix/lua/main.lua:314: in function <../pictrix/lua/main.lua:1>, client: 127.0.0.1, server: , request: "GET /image.mucfc.com/product/20151020/f850425e0c5c403dbecd1d1d638b5e0f.png?quality=50 HTTP/1.0", host: "image.luoxianming.cn"
+2016/11/21 08:57:21 [notice] 22409#22409: signal process started
+2016/11/21 08:57:26 [error] 22412#22412: *24 lua entry thread aborted: runtime error: ../pictrix/lua/main.lua:216: attempt to compare number with string
+stack traceback:
+coroutine 0:
+	../pictrix/lua/main.lua: in function 'downloadimage'
+	../pictrix/lua/main.lua:307: in function 'main'
+	../pictrix/lua/main.lua:314: in function <../pictrix/lua/main.lua:1>, client: 127.0.0.1, server: , request: "GET /image.mucfc.com/product/20151020/f850425e0c5c403dbecd1d1d638b5e0f.png?quality=50 HTTP/1.0", host: "image.luoxianming.cn"
+2016/11/21 08:57:27 [error] 22412#22412: *27 lua entry thread aborted: runtime error: ../pictrix/lua/main.lua:216: attempt to compare number with string
+stack traceback:
+coroutine 0:
+	../pictrix/lua/main.lua: in function 'downloadimage'
+	../pictrix/lua/main.lua:307: in function 'main'
+	../pictrix/lua/main.lua:314: in function <../pictrix/lua/main.lua:1>, client: 127.0.0.1, server: , request: "GET /image.mucfc.com/product/20151020/f850425e0c5c403dbecd1d1d638b5e0f.png?quality=50 HTTP/1.0", host: "image.luoxianming.cn"
+2016/11/21 08:58:43 [notice] 22428#22428: signal process started
+2016/11/21 08:58:46 [error] 22432#22432: *29 lua entry thread aborted: runtime error: lib/fileutil.lua:49: attempt to index field 'tmp' (a nil value)
+stack traceback:
+coroutine 0:
+	lib/fileutil.lua: in function 'errorEnd'
+	lib/fileutil.lua:42: in function 'touchTmp'
+	../pictrix/lua/main.lua:221: in function 'downloadimage'
+	../pictrix/lua/main.lua:307: in function 'main'
+	../pictrix/lua/main.lua:314: in function <../pictrix/lua/main.lua:1>, client: 127.0.0.1, server: , request: "GET /image.mucfc.com/product/20151020/f850425e0c5c403dbecd1d1d638b5e0f.png?quality=50 HTTP/1.0", host: "image.luoxianming.cn"
+2016/11/21 09:03:07 [notice] 22525#22525: signal process started
+2016/11/21 09:09:52 [notice] 22682#22682: signal process started
+2016/11/21 09:09:58 [error] 22683#22683: *39 lua entry thread aborted: runtime error: lib/prixutil.lua:19: 'int64_t' has no member named 'sub'
+stack traceback:
+coroutine 0:
+	lib/prixutil.lua: in function 'hashString'
+	lib/fileutil.lua:36: in function 'touchTmp'
+	../pictrix/lua/main.lua:221: in function 'downloadimage'
+	../pictrix/lua/main.lua:307: in function 'main'
+	../pictrix/lua/main.lua:314: in function <../pictrix/lua/main.lua:1>, client: 127.0.0.1, server: , request: "GET /image.mucfc.com/product/20160229/daa6c14e81cc455da5f07ff064352420.jpg?quality=50 HTTP/1.0", host: "image.luoxianming.cn"
+2016/11/21 09:11:09 [notice] 22706#22706: signal process started
+2016/11/21 09:11:12 [error] 22707#22707: *42 lua entry thread aborted: runtime error: lib/prixutil.lua:19: bad argument #1 to 'len' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[builtin:len]: in function 'len'
+	lib/prixutil.lua:19: in function 'hashString'
+	lib/fileutil.lua:36: in function 'touchTmp'
+	../pictrix/lua/main.lua:221: in function 'downloadimage'
+	../pictrix/lua/main.lua:307: in function 'main'
+	../pictrix/lua/main.lua:314: in function <../pictrix/lua/main.lua:1>, client: 127.0.0.1, server: , request: "GET /image.mucfc.com/product/20160229/daa6c14e81cc455da5f07ff064352420.jpg?quality=50 HTTP/1.0", host: "image.luoxianming.cn"
+2016/11/21 09:11:48 [notice] 22725#22725: signal process started
+2016/11/21 09:29:34 [notice] 23091#23091: signal process started
+2016/11/21 09:29:38 [error] 23094#23094: *62 lua entry thread aborted: runtime error: lib/fileutil.lua:56: attempt to index field 'tmp' (a nil value)
+stack traceback:
+coroutine 0:
+	lib/fileutil.lua: in function 'appendData'
+	../pictrix/lua/main.lua:231: in function 'downloadimage'
+	../pictrix/lua/main.lua:307: in function 'main'
+	../pictrix/lua/main.lua:314: in function <../pictrix/lua/main.lua:1>, client: 127.0.0.1, server: , request: "GET /image.mucfc.com/product/20160229/daa6c14e81cc455da5f07ff064352420.jpg?quality=50 HTTP/1.0", host: "image.luoxianming.cn"
+2016/11/21 09:30:56 [error] 23094#23094: *65 lua entry thread aborted: runtime error: lib/fileutil.lua:56: attempt to index field 'tmp' (a nil value)
+stack traceback:
+coroutine 0:
+	lib/fileutil.lua: in function 'appendData'
+	../pictrix/lua/main.lua:231: in function 'downloadimage'
+	../pictrix/lua/main.lua:307: in function 'main'
+	../pictrix/lua/main.lua:314: in function <../pictrix/lua/main.lua:1>, client: 127.0.0.1, server: , request: "GET /image.mucfc.com/product/20160229/daa6c14e81cc455da5f07ff064352420.jpg?quality=50 HTTP/1.0", host: "image.luoxianming.cn"
+2016/11/21 09:32:37 [notice] 23120#23120: signal process started
