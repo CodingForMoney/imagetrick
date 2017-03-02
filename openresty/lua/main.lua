@@ -311,5 +311,7 @@ function main(  )
 end
 
 
-main()
+-- main()
+local pwd = os.execute ("pwd")
+ngx.say(pwd)
 

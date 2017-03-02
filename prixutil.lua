@@ -1,4 +1,5 @@
 local ffi = require("ffi")
+-- string 是 const char *, 否则会爆错误。
 ffi.cdef([[
 	int pdeletefile(const char* filename);
 	int pmovefile(const char* src , const char* dest);
@@ -7,7 +8,6 @@ ffi.cdef([[
 	]])
 
 local lib = ffi.load("/usr/local/pictrix/libc/libpictrixutil.so")
--- string 是 const char * 否则会爆错误。
 
 local _M = {}
 -- hash 字符串

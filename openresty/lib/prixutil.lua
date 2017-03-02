@@ -6,7 +6,7 @@ ffi.cdef([[
 	long getmillisecond();
 	]])
 
-local lib = ffi.load("/usr/local/pictrix/libc/libpictrixutil.so")
+local lib = ffi.load("libpictrixutil")
 -- string 是 const char * 否则会爆错误。
 
 local _M = {}
