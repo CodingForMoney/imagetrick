@@ -4,8 +4,8 @@ local fileutil = require("fileutil")
 
 
 -- 设置项
-local TMP_PATH = "/data/pictrix/tmp/"
-local IMAGE_PATH = "/data/pictrix/image/"
+local TMP_PATH = "/imagetrick/data/tmp/"
+local IMAGE_PATH = "/imagetrick/data/image/"
 --  debug模式
 local DEBUG = true 
 

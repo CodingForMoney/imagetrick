@@ -1,7 +1,7 @@
 --  缓存目录中存放的文件名是一个随机值。
-local TMP_PATH = "/data/pictrix/tmp/"
+local TMP_PATH = "/imagetrick/data/tmp/"
 -- 文件路径为 path + URL . 中间路径要在没有时创建文件夹。
-local IMAGE_PATH = "/data/pictrix/image/"
+local IMAGE_PATH = "/imagetrick/data/image/"
 
 --  缓存目录中存放的文件名是一个随机值。
 --local TMP_PATH = "/Users/luoxianming/Documents/Testing/pictrix/file/tmp/"

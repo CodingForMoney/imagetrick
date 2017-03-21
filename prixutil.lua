@@ -7,7 +7,7 @@ ffi.cdef([[
 	long getmillisecond();
 	]])
 
-local lib = ffi.load("/usr/local/pictrix/libc/libpictrixutil.so")
+local lib = ffi.load("/imagetrick/libpictrixutil.so")
 
 local _M = {}
 -- hash 字符串
