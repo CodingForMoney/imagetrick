@@ -6,7 +6,7 @@ ffi.cdef([[
 	long getmillisecond();
 	]])
 
-local lib = ffi.load("/imagetrick/libc/libptrickutil.so")
+local lib = ffi.load("/imagetrick/lib/libtrickutil.so")
 -- string 是 const char * 否则会爆错误。
 
 local _M = {}
