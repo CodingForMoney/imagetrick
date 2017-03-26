@@ -1,5 +1,4 @@
 local ffi = require("ffi")
--- string 是 const char *, 否则会爆错误。
 ffi.cdef([[
 	int pdeletefile(const char* filename);
 	int pmovefile(const char* src , const char* dest);
@@ -7,7 +6,8 @@ ffi.cdef([[
 	long getmillisecond();
 	]])
 
-local lib = ffi.load("/imagetrick/libimageutil.so")
+local lib = ffi.load("/imagetrick/libc/libptrickutil.so")
+-- string 是 const char * 否则会爆错误。
 
 local _M = {}
 -- hash 字符串
