@@ -7,7 +7,7 @@ local fileutil = require("fileutil")
 local TMP_PATH = "/imagetrick/data/tmp/"
 local IMAGE_PATH = "/imagetrick/data/image/"
 --  debug模式
-local DEBUG = true 
+local DEBUG = false 
 
 --  认证的域名
 local verifiedHosts = {
